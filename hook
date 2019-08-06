@@ -1,0 +1,28 @@
+@@ -66,27 +66,27 @@
+                          ）}
+                      >
+                        <地址>
+                          { Iota。addChecksum（
+                            帐户。地址 [ 帐号。地址。长度 -  1 ]
+                          ）}
+                        < / Address >
+                      < / CopyAddress >
+                      < QR
+                        source = {{
+                          uri ： qr（
+                            Iota。addChecksum（
+                              帐户。地址 [ 帐号。地址。长度 -  1 ]
+                            ）
+                          ）
+                          规模： 4
+                        }}
+                      / >
+                    < / Col >
+                  ： null }
+
+                { ！帐户。地址 [ 0 ]
+                  ？ < 文字样式= {{marginTop ： “ 20px ” }} >
+                  ？ < 文字样式= {{marginTop ： 20 }} >
+                      点击下方生成您的第一个地址
+                    < / Text >
+                  ： null }
